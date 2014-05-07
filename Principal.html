@@ -1,0 +1,63 @@
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+            <title>Github - Principal</title>
+            
+            <!-- Latest compiled and minified CSS -->
+            <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+                
+                <!-- Optional theme -->
+                <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+                    
+                    <link href="github.css" rel="stylesheet">
+                    </head>
+    <body>
+        <div class="container theme-showcase" role="main">
+            <div class="jumbotron">
+                <h1>Github</h1>
+            </div>
+            
+            
+            <div class="page-header">
+                <h1>Opciones a realizar en GitHub</h1>
+            </div>
+            
+            <div class="row">
+                <div class="col-sm-8">
+                    <div class="panel panel-default">
+                        <div class="panel-heading">
+                            <h3 class="panel-title">Opciones de Repositorios</h3>
+                        </div>
+                        <div class="panel-body">
+                            <button type="button" class="btn btn-info" id="button_get_listado" onClick="location.href='get_lista.html'">Obtener Listado de Repos</button>
+                            <button type="button" class="btn btn-info" id="button_get_sting1" onClick="location.href='get_byid.html'">Obtener un repositorio</button>
+                            <button type="button" class="btn btn-info" id="button_crear_sting" onClick="location.href='post_byid.html'">Crear un repositorio</button>
+                            <button type="button" class="btn btn-info" id="button_editar_sting" onClick="location.href='put_byid.html'">Editar un respositorio</button>
+                            <button type="button" class="btn btn-info" id="button_eliminar_sting" onClick="location.href='delete_byid.html'">Eliminar un repositorio</button>
+                            
+                        </div>
+                    </div>
+                </div><!-- /.col-sm-8 -->
+       
+            </div>            
+            
+        </div>
+        
+        
+        
+        
+        
+        
+        
+        <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+        <!-- Latest compiled and minified JavaScript -->
+        <script src="http://netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+        <!-- Include all compiled plugins (below), or include individual files as needed -->
+        
+        <!-- Event and AJAX functions -->
+        <script type="text/javascript" src="StingsJson.js"></script>
+    </body>
+</html>

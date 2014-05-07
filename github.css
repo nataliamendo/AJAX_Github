@@ -1,0 +1,56 @@
+.bs-callout {
+	margin: 20px 0;
+	margin-top: 70px;
+	margin-right: 0px;
+	margin-bottom: -50px;
+	margin-left: 10px;
+	padding: 20px;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-bottom: 20px;
+	padding-left: 20px;
+	border-left: 3px solid #eee;
+	border-left-width: 5px;
+	border-left-style: solid;
+	border-left-color: rgb(238, 238, 238);
+	width: 600px;
+}
+
+.bs-callout-info {
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+
+.navbar-fixed-top {
+	top: 0;
+	border-width: 0 0 1px;
+	border-top-width: 0px;
+	border-right-width: 0px;
+	border-bottom-width: 1px;
+	border-left-width: 0px;
+}
+
+.navbar-brand {
+	float: left;
+	padding: 15px 15px;
+	padding-top: 15px;
+	padding-right: 15px;
+	padding-bottom: 15px;
+	padding-left: 15px;
+	font-size: 18px;
+	line-height: 20px;
+}
+
+.navbar-default {
+	background-color: #f4f8fa;
+	border-color: #bce8f1;
+}
+
+.input-group {
+	margin-bottom: 15px;
+	width: 400px;
+}
+
+.container {
+	margin-top: 15px;
+}
